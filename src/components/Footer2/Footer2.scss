@@ -1,0 +1,54 @@
+.footer2 {
+    padding: 62px 0 76px;
+    background: var(--black);
+
+    &__title {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 21px;
+        color: var(--white);
+        margin-bottom: 45px;
+    }
+
+    &__desc {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        color: var(--white);
+        transition: 0.3s;
+        &:hover {
+            color: var(--d)
+        }
+    }
+
+    &__desc:not(:last-child) {
+        margin-bottom: 22.5px;
+    }
+
+    &__brand:not(:last-child) {
+        margin-right: 27px;
+    }
+
+    &__brand {
+        color: var(--white);
+        font-size: 18px;
+    }
+
+    &__copyright {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 24px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: rgba(255, 255, 255, 0.51);
+        margin-top: 28px;
+
+    }
+}

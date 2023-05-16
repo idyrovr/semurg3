@@ -1,0 +1,188 @@
+.contacthome {
+
+    background-color: var(--black);
+    padding-bottom: 45px;
+    position: relative;
+
+    & .container {
+        padding: 70px 50px 125px;
+        background-color: var(--white);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 10px;
+    }
+
+    &__title {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 60px;
+        color: var(--d);
+        text-align: center;
+    }
+
+    &__desc {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 27px;
+        text-align: center;
+        color: #717171;
+        margin: 10px 0 24px;
+    }
+
+    &__content {
+        background-color: var(--white);
+        // box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 10px;
+    }
+
+    & .information {
+        width: 491px;
+        background: var(--d);
+        border-radius: 10px;
+        padding: 40px 40px 90px;
+        position: relative;
+
+
+        &__div:not(:last-child) {
+            margin-bottom: 57px;
+        }
+
+        &__svg {
+            width: 3rem;
+            height: 3rem;
+            margin-right: 27px;
+        }
+
+        &__title {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 28px;
+            line-height: 42px;
+            color: var(--white);
+            margin-bottom: 144px;
+        }
+
+        &__phone {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            color: var(--white);
+        }
+
+        &__email {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            color: var(--white);
+        }
+
+        &__address {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            color: var(--white);
+        }
+
+        &__ellipse-black {
+            position: absolute;
+            bottom: -11px;
+            right: -11px;
+        }
+
+        &__ellipse-white {
+            position: absolute;
+            bottom: 67px;
+            right: 67px;
+        }
+
+        &__media {
+            margin: 117px 0 0 20px;
+        }
+
+        &__brand {
+            display: inline-block;
+            margin-right: 27px;
+            color: var(--white);
+            font-size: 18px;
+        }
+    }
+
+    & .form {
+        &__lab {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 24px;
+            letter-spacing: 0.2px;
+            color: #252B42;
+            margin-bottom: 13px;
+        }
+
+        &__cin {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 28px;
+            letter-spacing: 0.2px;
+            color: #737373;
+            background: #F9F9F9;
+            border: 1px solid #E6E6E6;
+            border-radius: 5px;
+            margin-bottom: 44px;
+            max-width: 507px;
+            height: 50px;
+            padding: 11px 22px;
+        }
+
+        &__send {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 24px;
+            color: var(--white);
+            border: 1px solid var(--black);
+            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            width: 224.39px;
+            height: 55.31px;
+            background: var(--d);
+            border: 1px solid #FFFFFF;
+            box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.12);
+            border-radius: 40px;
+            align-self: center;
+            margin-top: 80px;
+            cursor: pointer;
+            &:hover {
+                background: var(--white);
+                border: 1px solid var(--white);
+                color: #846D45;
+            }
+        }
+    }
+
+    &__arrow {
+        position: absolute;
+        bottom: 0;
+        right: 700px;
+
+        & img {
+            object-fit: cover;
+            object-position: center;
+            margin: 0 auto;
+        }
+
+    }
+
+}

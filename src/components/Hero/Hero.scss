@@ -1,0 +1,75 @@
+.hero {
+    background: url(../../assets/images/Volvo.jpg) no-repeat center/cover;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    
+    & .container {
+         justify-content: flex-end;
+         height: 100%;
+         padding-bottom: 120px;
+    }
+
+    &__content {
+        position: relative;
+        
+        max-width: 505px;
+    }
+
+
+    &__title {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 96px;
+        line-height: 77px;
+        background: linear-gradient(90.18deg, #AB8E5A -15.56%, rgba(212, 175, 108, 0.58) 108.88%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        -text-fill-color: transparent;
+      
+    }
+
+    &__desc {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 25px;
+        letter-spacing: 0.03em;
+        color: #FFFFFF;
+        margin: 33px 0 60px;
+        max-width: 502px;
+    }
+
+    &__desc-sm {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 25px;
+        letter-spacing: 0.03em;
+        color: #FFFFFF;
+    }
+
+    &__button {
+        margin-left: 120px;
+    }
+
+    &__eclipse {
+        position: absolute;
+        bottom: 46px;
+        left: -38px;
+    }
+}
+
+
+
+@media (max-width: 1300px) {
+    .hero {
+        & .container {
+            padding-left: 100px;
+        }
+    }
+}
