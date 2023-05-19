@@ -7,7 +7,7 @@ import { useState } from 'react';
 
 
 export const Navbar = () => {
-   const [active, setActive ] = useState(false)
+   const [active, setActive] = useState(false)
    return (
       <header className="header" id="header">
 
@@ -25,24 +25,25 @@ export const Navbar = () => {
                <NavLink to="tel:+14702607325" className="header__link"><button className="header__button">+1 470-260-7325</button></NavLink>
                <NavLink to="/contact" className="header__link"><ContactUsButton></ContactUsButton></NavLink>
             </nav>
-            
-            
-            <div onClick={() => {setActive(prev => !prev)}} className={'header__burger burger ' + (active ? "active" : "")}>
+
+
+            <div  className={'header__burger burger ' + (active ? "active" : "")}>
+                  <div onClick={() => { setActive(prev => !prev) }} className="burger__click"></div>
             </div>
 
 
 
          </div>
-         {active && 
-         
-         <div className='burger__menu'>
-            <nav className="burger__nav d-flex flex-column align-center justify-center">
-               <NavLink to="/" className="burger__link canHover">Home</NavLink>
-               <NavLink to="/about" className="burger__link canHover">About</NavLink>
-               <NavLink to="/services" className="burger__link canHover">Services</NavLink>
-               <NavLink to="/quote" className="burger__link canHover">Get a quote</NavLink>
-               <NavLink to="/contact" className="burger__link canHover">Contact Us</NavLink>
-            </nav>
+         {active &&
+
+            <div className='burger__menu'>
+               <nav className="burger__nav d-flex flex-column align-center justify-between">
+                  <NavLink to="/" className="burger__link canHover">Home</NavLink>
+                  <NavLink to="/about" className="burger__link canHover">About</NavLink>
+                  <NavLink to="/services" className="burger__link canHover">Services</NavLink>
+                  <NavLink to="/quote" className="burger__link canHover">Get a quote</NavLink>
+                  <NavLink to="/contact" className="burger__link canHover">Contact Us</NavLink>
+               </nav>
             </div>}
       </header>
    );

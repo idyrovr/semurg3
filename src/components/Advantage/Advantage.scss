@@ -2,13 +2,15 @@
     z-index: 0;
     position: relative;
     padding-top: 227px;
-    padding-bottom: 341px;;
+    padding-bottom: 341px;
+    ;
     background-color: var(--black);
-   & .container{
-    &:hover .advantage__title::after {
-        width: 120%;
+
+    & .container {
+        &:hover .advantage__title::after {
+            width: 120%;
+        }
     }
-   }
 
     &__title {
         position: relative;
@@ -19,6 +21,7 @@
         line-height: 51px;
         color: var(--d);
         border: 1px solid #000000;
+
         &::after {
             position: absolute;
             content: "";
@@ -30,8 +33,8 @@
             transition: 0.3s;
             transform: translateX(-50%);
         }
-       
-  
+
+
     }
 
     &__desc {
@@ -44,9 +47,10 @@
         color: var(--white);
         max-width: 573px;
         margin: 45px 0 50px;
-     
+
     }
-    &__cards{
+
+    &__cards {
         row-gap: 33px;
         column-gap: 50px;
     }
@@ -81,6 +85,7 @@
             margin: 16px 0 10px;
         }
     }
+
     &__map {
         z-index: -1;
         position: absolute;
@@ -89,5 +94,50 @@
         right: 0;
         margin: 0 auto;
         width: 100%;
+    }
+}
+
+
+@media (max-width: 1050px) {
+    .advantage {
+        &__cards {
+            grid-template-columns: 1fr;
+        }
+
+        &__map {
+            bottom: 0;
+            top: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+        }
+    }
+}
+
+
+@media (max-width: 500px) {
+    .advantage {
+        & .container {
+            text-align: center;
+        }
+
+        &__title {
+            font-size: 26px;
+        }
+
+        &__desc {
+            font-size: 24px;
+        }
+    }
+}
+
+
+@media (max-width: 500px) {
+    .advantage {
+        & .card {
+            width: 250px;
+            height: 350px;
+            padding: 0 5px;
+        }
     }
 }

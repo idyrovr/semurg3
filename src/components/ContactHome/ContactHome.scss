@@ -164,6 +164,7 @@
             align-self: center;
             margin-top: 80px;
             cursor: pointer;
+
             &:hover {
                 background: var(--white);
                 border: 1px solid var(--white);
@@ -173,6 +174,7 @@
     }
 
     &__arrow {
+        display: none;
         position: absolute;
         bottom: 0;
         right: 700px;
@@ -185,4 +187,71 @@
 
     }
 
+}
+
+@media (max-width: 1050px) {
+    .contacthome {
+
+        & .container {
+            background-color: var(--black);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        &__content {
+            grid-template-columns: 1fr;
+        }
+
+        & .information {
+            display: none;
+        }
+
+        & .form {
+            background-color: var(--black);
+            width: 490px;
+
+            &__lab {
+                color: var(--f)
+            }
+        }
+    }
+}
+
+
+@media (max-width: 500px) {
+    .contacthome {
+        &__title {
+            font-size: 33px;
+        }
+
+        & .form {
+
+            width: 350px;
+
+        }
+    }
+}
+
+
+@media (max-width: 400px) {
+    .contacthome {
+
+        & .form {
+
+            width: 300px;
+
+        }
+    }
+}
+
+@media (max-width: 400px) {
+    .contacthome {
+
+        & .form {
+
+            width: 250px;
+
+        }
+    }
 }

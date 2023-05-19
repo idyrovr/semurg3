@@ -3,16 +3,16 @@
     height: 100vh;
     width: 100%;
     position: relative;
-    
+
     & .container {
-         justify-content: flex-end;
-         height: 100%;
-         padding-bottom: 120px;
+        justify-content: flex-end;
+        height: 100%;
+        padding-bottom: 120px;
     }
 
     &__content {
         position: relative;
-        
+
         max-width: 505px;
     }
 
@@ -28,7 +28,7 @@
         -webkit-text-fill-color: transparent;
         background-clip: text;
         -text-fill-color: transparent;
-      
+
     }
 
     &__desc {
@@ -65,11 +65,116 @@
 }
 
 
+@media only screen and (max-height: 500px) {
+    .hero {
+        height: 150vh;
+        & .container {
+          
+            padding-bottom: 20px;
+        }
+
+        &__title {
+            font-size: 60px;
+        }
+
+        &__desc-sm {
+            font-size: 16px;
+        }
+
+        &__desc {
+            font-size: 18px;
+        }
+    }
+}
+
+
+
 
 @media (max-width: 1300px) {
     .hero {
         & .container {
             padding-left: 100px;
         }
+    }
+}
+
+@media (max-width: 600px) {
+    .hero {
+        & .container {
+            padding-left: 0;
+            padding-bottom: 50px;
+        }
+
+        &__content {
+            margin: 0 auto;
+        }
+
+        &__title {
+            font-size: 60px;
+        }
+
+        &__desc-sm {
+            font-size: 16px;
+        }
+
+        &__desc {
+            font-size: 18px;
+        }
+        &__button {
+
+        }
+    }
+}
+
+@media (max-width: 550px) {
+    .hero {
+
+        &__content {
+            padding-left: 40px;
+        }
+
+        &__eclipse {
+            left: 35px;
+        }
+    }
+}
+
+@media (max-width: 500px) {
+    .hero {
+
+        &__content {
+            padding-left: 20px;
+        }
+
+        &__eclipse {
+            left: 15px;
+        }
+        &__button {
+            margin: 0 auto;
+        }
+    }
+}
+
+@media (max-width: 450px) {
+    .hero {
+
+        &__content {
+            padding-left: 15px;
+        }
+
+        &__eclipse {
+            left: 10px;
+        }
+     
+    }
+}
+
+@media (max-width: 350px) {
+    .hero {
+
+        &__eclipse {
+          display: none;
+        }
+     
     }
 }

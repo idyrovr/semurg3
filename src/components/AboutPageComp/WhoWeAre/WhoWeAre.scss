@@ -28,10 +28,188 @@
             line-height: 29px;
             color: var(--white);
         }
+
         & img {
             position: absolute;
             right: -467px;
             bottom: -15px;
+        }
+    }
+}
+
+@media (max-width: 1200px) {
+    .whoweare {
+        & .content {
+            img {
+                width: 476px;
+                right: -337px;
+            }
+        }
+
+    }
+}
+
+
+@media (max-width: 1050px) {
+    .whoweare {
+        & .content {
+            max-width: 664px;
+            padding: 51px 70px;
+        }
+    }
+}
+
+
+@media (max-width: 950px) {
+    .whoweare {
+        & .content {
+            max-width: 550px;
+            padding: 40px 60px;
+        }
+    }
+}
+
+
+@media (max-width: 850px) {
+    .whoweare {
+        & .content {
+            img {
+                width: 385px;
+                right: -269px;
+            }
+        }
+    }
+}
+
+
+@media (max-width: 800px) {
+    .whoweare {
+        & .content {
+            padding: 29px 36px;
+
+            img {
+                width: 339px;
+                right: -188px;
+            }
+        }
+    }
+}
+
+@media (max-width: 700px) {
+    .whoweare {
+        & .content {
+            width: 500px;
+
+            &__title {
+                font-size: 22px;
+            }
+
+            &__desc {
+                font-size: 19px;
+            }
+
+            padding: 20px 30px;
+
+            img {}
+        }
+    }
+}
+
+@media (max-width: 650px) {
+    .whoweare {
+        & .content {
+            img {
+                right: -62px;
+                bottom: -82px;
+            }
+        }
+    }
+}
+
+
+
+@media (max-width: 600px) {
+    .whoweare {
+        & .container {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        & .content {
+            text-align: center;
+
+            img {
+                right: 0;
+                left: 0;
+                margin: 0 auto;
+                bottom: -130px;
+            }
+        }
+    }
+}
+
+
+@media (max-width: 520px) {
+    .heroabout {
+        &__title {
+            margin-left: 20px;
+        }
+    }
+    .whoweare {
+        & .content {
+            width: 400px;
+        }
+    }
+}
+
+
+@media (max-width: 420px) {
+    .whoweare {
+
+        & .content {
+            width: 350px;
+            &__title {
+                font-size: 20px;
+            }
+
+            &__desc {
+                font-size: 16px;
+            }
+        }
+    }
+}
+
+
+@media (max-width: 370px) {
+    .whoweare {
+        & .content {
+            width: 300px;
+        }
+    }
+}
+
+@media (max-width: 350px) {
+    .whoweare {
+        & .content {
+           & img {
+            width: 274px;
+            bottom: -118px;
+           }
+        }
+    }
+}
+
+
+@media (max-width: 320px) {
+    .whoweare {
+        & .content {
+            width: 250px;
+            height: 600px;
+            & img {
+                width: 200px;
+                bottom: -69px;
+               }
         }
     }
 }

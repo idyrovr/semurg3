@@ -7,12 +7,14 @@
     & .container {
         padding-left: 150px;
     }
+
     &__content {
         position: relative;
         margin-top: 150px;
     }
+
     &__desc {
-       
+
         font-family: 'Montserrat';
         font-style: normal;
         font-weight: 700;
@@ -47,6 +49,7 @@
         position: absolute;
         top: -38rem;
         left: -18rem;
+
         & img {
             object-fit: cover;
             object-position: center;
@@ -68,5 +71,152 @@
             height: 100%;
             border-radius: 50%;
         }
+    }
+}
+
+@media (max-width: 1500px) {
+    .mission {
+        & .container {
+            padding-left: 0;
+        }
+
+        &__gif1 {
+            left: -3rem;
+        }
+
+        &__gif2 {
+            right: -3rem;
+        }
+    }
+}
+
+
+@media (max-width: 1300px) {
+    .mission {
+        & .container {
+            max-width: 102rem;
+    
+        }
+
+        &__gif1 {
+            left: -3rem;
+        }
+
+        &__gif2 {
+            right: -3rem;
+        }
+    }
+}
+
+
+
+@media (max-width: 1200px) {
+    .mission {
+        & .container {
+            max-width: 90rem;
+ 
+        }
+
+        &__gif1 {
+            width: 24rem;
+            top: -28rem;
+        }
+
+        &__gif2 {
+            width: 24rem;
+            bottom: -28rem;
+        }
+
+    }
+}
+
+@media (max-width: 1000px) {
+    .mission {
+        &__desc {
+            text-align: center;
+        }
+        & .container {
+            max-width: 80rem;
+      
+        }
+
+        &__gif1 {
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+        }
+
+        &__gif2 {
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+        }
+
+    }
+}
+
+
+@media (max-width: 950px) {
+    .mission {
+        & .container {
+            max-width: 70rem;
+
+        }
+
+    }
+}
+
+@media (max-width: 700px) {
+    .mission {
+        & .container {
+            max-width: 60rem;
+
+        }
+
+    }
+}
+
+@media (max-width: 600px) {
+    .mission {
+        & .container {
+            max-width: 45rem;
+            padding: 0 20px;       }
+        &__desc {
+            font-size: 19px;
+        }
+        &__gif1 {
+            width: 20rem;
+        }
+    }
+}
+
+
+@media (max-width: 500px) {
+    .mission {
+   
+        &__desc {
+            font-size: 17px;
+        }
+
+        &__gif2 {
+            width: 22rem;
+        }
+    
+    }
+}
+
+@media (max-width: 400px) {
+    .mission {
+   
+        &__desc {
+            font-size: 17px;
+        }
+        &__gif1 {
+            width: 17rem;
+        }
+        &__gif2 {
+            width: 19rem;
+        }
+    
     }
 }

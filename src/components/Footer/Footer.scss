@@ -91,3 +91,18 @@
         }
     }
 }
+
+.FooterMobile {
+    display: none;
+}
+
+
+@media (max-width: 950px) {
+    .FooterMobile{
+        display: block;
+    }
+
+    .FooterMain {
+        display: none;
+    }
+}
