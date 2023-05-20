@@ -9,7 +9,7 @@
         font-size: 40px;
         line-height: 49px;
         color: var(--black);
-        width: 700px;
+        max-width: 700px;
     }
 
     &__desc {
@@ -25,4 +25,28 @@
         margin-top: 35px;
     }
 
+}
+
+
+@media (max-width: 1200px) {
+    .servicesdesc {
+        & .container {
+            padding: 0 50px;
+        }
+    }
+}
+
+@media (max-width: 500px) {
+    .servicesdesc {
+        & .container {
+            padding: 0 25px;
+        }
+      &__desc {
+        font-size: 14px;
+      }
+      &__title {
+        font-size: 25px;
+        line-height: 120%;
+      }
+    }
 }

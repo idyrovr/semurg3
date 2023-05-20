@@ -88,3 +88,25 @@
         color: var(--black);
     }
 }
+
+
+@media (max-width: 650px) {
+    .quoteform {
+        padding-top: 80px;
+        &__content {
+            grid-template-columns: 1fr;
+        }
+    }
+}
+
+
+@media (max-width: 500px) {
+    .quoteform {
+      &__lab {
+        font-size: 12px;
+      }
+      &__sm-title {
+        font-size: 18px;
+      }
+    }
+}

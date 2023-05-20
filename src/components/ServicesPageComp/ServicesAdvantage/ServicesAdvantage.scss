@@ -52,3 +52,20 @@
     }
 
 }
+
+@media (max-width: 600px) {
+    .servicesadvantage {
+        & .card {
+            padding: 5px;
+            width: 250px;
+            height: 250px;
+            &__title {
+                font-size: 14px;
+            }
+            &__desc {
+                font-size: 12px;
+            }
+        }
+     
+    }
+}

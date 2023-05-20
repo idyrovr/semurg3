@@ -37,7 +37,8 @@ const Home = () => {
          <ContactHome />
          {width > 950 ? null : (<GetInTouch />)}
          {width > 950 ? (<Footer />) : (<Footer2 />)}
-
+         {/* <GetInTouch className="hide1"/>
+         <Footer2 className="hide2"/> */}
       </div>
    );
 };

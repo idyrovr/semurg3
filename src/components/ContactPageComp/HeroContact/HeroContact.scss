@@ -83,6 +83,7 @@
     }
 
     &__agree {
+        display: none;
         margin: 40px 0;
     }
 
@@ -112,7 +113,7 @@
         border-radius: 4px;
         height: 34px;
         width: 180px;
-        margin-top: 176px;
+        margin-top: 40px;
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 400;
@@ -124,6 +125,67 @@
 
         &:hover {
             background: var(--white);
+        }
+    }
+}
+
+
+@media (max-width: 800px) {
+    .herocontact {
+        &__main {
+            grid-template-columns: 1fr;
+        }
+        &__form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        &__message {
+            width: 340px;
+        }
+    }
+}
+
+@media (max-width: 600px) {
+    .herocontact {
+        &__title {
+            font-size: 30px;
+            text-align: center;
+        }
+        &__label {
+            font-size: 12px;
+        }
+    }
+}
+
+@media (max-width: 370px) {
+    .herocontact {
+      &__message {
+            width: 300px;
+        }
+        &__input {
+            width: 300px;
+        }
+    }
+}
+@media (max-width: 320px) {
+    .herocontact {
+      &__message {
+            width: 280px;
+        }
+        &__input {
+            width: 280px;
+        }
+    }
+}
+
+@media (max-width: 300px) {
+    .herocontact {
+      &__message {
+            width: 260px;
+        }
+        &__input {
+            width: 260px;
         }
     }
 }

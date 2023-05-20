@@ -6,6 +6,7 @@ export const QuoteContact = () => {
   return (
      <section className='quotecontact'>
         <div className="container d-flex flex-column justify-center align-center">
+        <p className="quotecontact__title">Let's Get in Touch!</p>
             <GetQuote></GetQuote>
             <p className="quotecontact__desc">Email 
             <Link className="quotecontact__link" to="mailto:brokerage@semurgtrans.net">brokerage@semurgtrans.net</Link> 

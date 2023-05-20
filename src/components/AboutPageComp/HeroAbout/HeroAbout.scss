@@ -29,3 +29,10 @@
 }
 
 
+@media (max-width: 600px) {
+    .heroabout {
+        &__title {
+            font-size: 39px;
+        }
+    }
+}

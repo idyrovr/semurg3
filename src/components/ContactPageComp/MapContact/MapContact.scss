@@ -1,4 +1,25 @@
 .mapcontact{
-    height: 100vh;
+    height: 900px;
+    width: 90%;
+    margin: 0 auto;
+ 
+   
+}
+
+.mapMain {
+    background: var(--black);
+   
+ 
+    
+}
+
+
+@media (max-width: 900px) {
+.mapcontact{
+    height: 500px;
     width: 100%;
+    border-radius: 0;
+    
+   
+}
 }
