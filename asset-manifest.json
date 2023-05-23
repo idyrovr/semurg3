@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/semurg3/static/css/main.4ea83d42.css",
-    "main.js": "/semurg3/static/js/main.b532ee6b.js",
-    "static/css/759.8ba136ca.chunk.css": "/semurg3/static/css/759.8ba136ca.chunk.css",
-    "static/js/759.56cb9820.chunk.js": "/semurg3/static/js/759.56cb9820.chunk.js",
+    "main.css": "/semurg3/static/css/main.90511770.css",
+    "main.js": "/semurg3/static/js/main.49a98bee.js",
+    "static/css/759.92d819cb.chunk.css": "/semurg3/static/css/759.92d819cb.chunk.css",
+    "static/js/759.8124ec64.chunk.js": "/semurg3/static/js/759.8124ec64.chunk.js",
     "static/css/958.9a94512a.chunk.css": "/semurg3/static/css/958.9a94512a.chunk.css",
     "static/js/958.e4df9170.chunk.js": "/semurg3/static/js/958.e4df9170.chunk.js",
     "static/media/Montserrat-SemiBold.svg": "/semurg3/static/media/Montserrat-SemiBold.64fe56d303b908ef95dc.svg",
@@ -94,15 +94,15 @@
     "static/media/BeVietnamPro-ExtraBold.woff2": "/semurg3/static/media/BeVietnamPro-ExtraBold.8522532bbc998dde10be.woff2",
     "static/media/Montserrat-Black.woff2": "/semurg3/static/media/Montserrat-Black.67d3d004359890041933.woff2",
     "index.html": "/semurg3/index.html",
-    "main.4ea83d42.css.map": "/semurg3/static/css/main.4ea83d42.css.map",
-    "main.b532ee6b.js.map": "/semurg3/static/js/main.b532ee6b.js.map",
-    "759.8ba136ca.chunk.css.map": "/semurg3/static/css/759.8ba136ca.chunk.css.map",
-    "759.56cb9820.chunk.js.map": "/semurg3/static/js/759.56cb9820.chunk.js.map",
+    "main.90511770.css.map": "/semurg3/static/css/main.90511770.css.map",
+    "main.49a98bee.js.map": "/semurg3/static/js/main.49a98bee.js.map",
+    "759.92d819cb.chunk.css.map": "/semurg3/static/css/759.92d819cb.chunk.css.map",
+    "759.8124ec64.chunk.js.map": "/semurg3/static/js/759.8124ec64.chunk.js.map",
     "958.9a94512a.chunk.css.map": "/semurg3/static/css/958.9a94512a.chunk.css.map",
     "958.e4df9170.chunk.js.map": "/semurg3/static/js/958.e4df9170.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4ea83d42.css",
-    "static/js/main.b532ee6b.js"
+    "static/css/main.90511770.css",
+    "static/js/main.49a98bee.js"
   ]
 }
